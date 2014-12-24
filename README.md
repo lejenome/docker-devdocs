@@ -8,23 +8,27 @@ Usage
 -----
 
 Start (it will fetch the docker image if it's not downloaded):
-```shell
+
+```
 docker run --rm -p 9292:9292 --name devdocs lejenome/devdocs
 ```
 
 Stop:
-```shell
+
+```
 docker stop devdocs
 ```
 
 Uninstall:
-```shell
+
+```
 docker rmi lejenome/devdocs
 ```
 
 Docker image creation
 ---------------------
 It's based on a Makefile, so you'll need the make command.
+
 ```
 make
 ```
