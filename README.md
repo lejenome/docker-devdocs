@@ -8,18 +8,18 @@ Usage
 -----
 
 Start (it will fetch the docker image if it's not downloaded):
-```
-docker run --rm -p 9292:9292 --name devdocs catchy/devdocs
+```shell
+docker run --rm -p 9292:9292 --name devdocs lejenome/devdocs
 ```
 
 Stop:
-```
+```shell
 docker stop devdocs
 ```
 
 Uninstall:
-```
-docker rmi catchy/devdocs
+```shell
+docker rmi lejenome/devdocs
 ```
 
 Docker image creation
