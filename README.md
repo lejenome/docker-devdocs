@@ -2,24 +2,7 @@ docker-devdocs
 ==============
 
 [DevDocs][1] combines multiple API documentations in a fast, organized, and searchable interface. 
-We - [catchy.io][2] - prepared a [Docker][3] image with a subset of those docs to make them available to our developers if they're offline.
-
-Selected documentation: 
-
-| Front | Back |
-| ----- | ----- |
-| angular | c |
-| css | git |
-| d3 | http  |
-| dom | less  |
-| html |markdown  |
-| javascript  | node  |
-| jquery_core  | php  |
-| jquery_ui  | redis |
-| jquery_mobile  | |
-
-
-
+This build contains all available docs. It's based on [catchy.io][2] build.
 
 Usage
 -----
@@ -48,4 +31,3 @@ make
 
 [1]: http://devdocs.io/ "DevDocs"
 [2]: http://catchy.io "catchy.io"
-[3]: http://docker.com "Docker"
