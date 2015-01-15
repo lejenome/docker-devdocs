@@ -9,7 +9,7 @@ ENV DEBIAN_FRONTEND noninteractive
 RUN apt-key adv --recv-keys --keyserver keyserver.ubuntu.com C3173AA6 && \
 	echo deb http://ppa.launchpad.net/brightbox/ruby-ng/ubuntu trusty main > /etc/apt/sources.list.d/ruby.list
 RUN apt-get update && \
-	apt-get install -y ruby2.1 ruby2.1-dev nodejs make libcurl3 git build-essential && \
+	apt-get install -y ruby2.2 ruby2.2-dev nodejs make libcurl3 git build-essential && \
 	gem install bundler
 
 RUN git clone https://github.com/Thibaut/devdocs.git /app
