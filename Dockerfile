@@ -1,9 +1,10 @@
 FROM ubuntu:14.04
 MAINTAINER Moez Bouhlel "bmoez.j@gmail.com"
 
-ENV LANG en_US.UTF-8
-ENV LANGUAGE en_US.UTF-8
-ENV LC_ALL en_US.UTF-8
+RUN locale-gen "en_US.UTF-8"
+ENV LANG="en_US.UTF-8"
+ENV LANGUAGE="en_US.UTF-8"
+ENV LC_ALL="en_US.UTF-8"
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-key adv --recv-keys --keyserver keyserver.ubuntu.com C3173AA6 && \
